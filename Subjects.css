@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+body
+{
+    height: 500px;
+    width: 100%;
+    background-color: #999999;
+}
+
+header
+{
+
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+
+}
+.logoutbtn{
+  position:absolute;
+  right:2%;
+  top:4%;
+  decoration:none;
+  padding:20px 10px;
+  border-radius: 100px;
+  background-color:#002366;
+  color:#fff;
+}
+
+img{
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+.navigation a
+{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+
+}
+.navigation a::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+    transform-origin: left;
+
+}
+.navigation a:hover:after
+{
+    transform: scaleX(1);
+}
+
+
+h1
+{
+    color: #fff;
+    font-size: 65px;
+    text-align: left;
+    padding-bottom: 15px;
+    text-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
+    font-family: Bodoni Bd BT;
+
+}
+
+h3
+{
+    padding-right: 60px;
+    padding-left: 60px;
+    font-family: Times New Roman;
+
+}
+
+p
+{
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-right: 60px;
+  margin-left: 60px;
+  background-color: #cccccc;
+  font-family: Comic Sans MS;
+}
+
+textarea{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+    height: 100px;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
