@@ -17,13 +17,13 @@ body
     background-size: cover;
     background-position: center;
     font-family: 'Poppins', sans-serif;
-
+    
 
 }
 
 header
 {
-
+	
     position: fixed;
     top: 0;
     left: 0;
@@ -93,21 +93,16 @@ header
     color: #fff;
 
 }
-img{
-    display: block;
-    width: 150px;
-    height: 150px;
-}
 
 h1
 {
     margin-bottom: 10px;
-
+    
 }
 
 .container p
 {
-
+   
     margin-bottom: 40px;
 }
 

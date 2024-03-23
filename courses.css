@@ -15,21 +15,21 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("Images/wall3.jpg");
+    background:#626567;
     background-size: cover;
     background-position: center;
-
+    
 
 }
 
 header
 {
-
+	
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 50px;
+    padding: 20px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,36 +37,18 @@ header
 
 }
 
-.logoutbtn{
-  position:absolute;
-  right:2%;
-  top:4%;
-  decoration:none;
-  padding:20px 10px;
-  border-radius: 100px;
-  background-color:#002366;
-  color:#fff;
-}
-
-/*.logo
+.logo
 {
-    width: 100px;
-    height: 100px;
-    float: left;
-    padding-left: 100px;
-}*/
-
-img{
-    display: block;
-    width: 150px;
-    height: 150px;
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
 }
 
 .navigation a
 {
     position: relative;
     font-size: 1.1em;
-    color: black;
+    color: #fff;
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
@@ -80,7 +62,7 @@ img{
     bottom: -6px;
     width: 100%;
     height: 3px;
-    background: black;
+    background: #fff;
     border-radius: 5px;
     transform: scaleX(0);
     transition: transform 0.5s;
@@ -103,8 +85,8 @@ img{
 
 h1
 {
-    color: black;
-    font-size: 55px;
+    color: #fff;
+    font-size: 45px;
     text-align: center;
     padding-bottom: 15px;
     text-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
@@ -120,13 +102,13 @@ h1
 
 .box
 {
-
+    
     height: 100px;
     width: 100%;
     padding:20px ;
     text-align: center;
     border-radius: 10px;
-    background: #000066;
+    background: #c9c2c2;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
 
 }
@@ -138,10 +120,9 @@ h1
 
 .box h3
 {
-    color: #fff;
+    color: #444;
     padding: 10px 0;
     font-size: 20px;
-    font-weight: bold;
 }
 
 .box p
@@ -149,7 +130,7 @@ h1
     color: #777;
     font-size: 14px;
     line-height: 1.6;
-
+    
 }
 
 .box a
